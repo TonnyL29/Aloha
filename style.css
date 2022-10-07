@@ -15,8 +15,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* background-color: #ba83684f; */
-    background-color: black;
+    background-color: #ba83684f;
     max-width: 110%;
 }
 
