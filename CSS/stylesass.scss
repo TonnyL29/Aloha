@@ -63,7 +63,7 @@
 @media (min-width: ($tablet+1)) and (max-width: $desktop_max) {
     .alfombras_contenedor{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: $col $col $col;
         gap: $space;
     }
 }
@@ -71,7 +71,7 @@
 @media (max-width: $tablet) { 
     .alfombras_contenedor{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: $col $col;
         gap: $space/2;
     }
  }
@@ -79,7 +79,7 @@
 @media (max-width: $celular) { 
     .alfombras_contenedor{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: $col;
         gap: $space/4;
     }
  }
