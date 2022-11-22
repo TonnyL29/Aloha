@@ -41,6 +41,10 @@
     border-radius: 10px;
     height: 35vh; }
 
+.img-show {
+  border-radius: 10px;
+  height: 206px; }
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .alfombras_contenedor {
     display: grid;
